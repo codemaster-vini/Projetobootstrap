@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root{
+    --corPrimaria: #ffca2c;
+}
+
+#header{
+    background-color: var(--corPrimaria);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    height: 300px;
+}
+
+.carousel-item{
+    max-width: 100%;
+}
+
+.card-images{
+    max-width: 100%;
+}
+
+.card{
+    max-width: 300px;
+    margin: 0 auto 32px auto;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="header" class="container d-flex justify-content-between">
+        <h1>Programação</h1>
+        <div class="dropdown">
+            <button type="button" class="btn-lg btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"></button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Sobre</a>
+                </li>
+                <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Cursos</a>
+                </li>
+                <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container g-0">
+        <div id="carousel-images" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div style="transition: 0.3s ease;" class="carousel-item active" data-bs-interval="3000">
+                    <img class="image" src="images/particles-7104407_1280.jpg">
+                </div>
+                <div style="transition: 0.3s ease;" class="carousel-item" data-bs-interval="3000">
+                    <img class="image" src="images/web-1935737_1280.png">
+                </div>
+                <div style="transition: 0.3s ease;" class="carousel-item" data-bs-interval="3000">
+                    <img class="image" src="images/technology-1283624_1280.jpg">
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carousel-images" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel-images" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <h1>Sobre nós</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perferendis pariatur porro laudantium beatae numquam quod sequi inventore ea soluta dolorum eaque asperiores quae, magni voluptatum similique ex, enim quas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quas porro eveniet doloribus maiores inventore nostrum, delectus consequuntur odit eos cum sit rem repellat? Saepe id beatae aut laboriosam culpa.
+        </p>
+        <div class="row">
+            <h1>Cursos</h1>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-images" src="images/javascript-736400_640.png" alt="JavaScript">
+                    <div class="card-body">
+                        <div class="card-tittle">
+                            <h1>JavaScript</h1>
+                        </div>
+                        <card-text>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ipsam minus odit eos facilis error ipsa. Excepturi architecto quisquam ipsam? Quasi aliquid soluta earum. Beatae quibusdam alias eveniet provident tempore!</p>
+                        </card-text>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-images" src="images/file-7084006_640.png" alt="HTML">
+                    <div class="card-body">
+                        <div class="card-tittle">
+                            <h1>HTML</h1>
+                        </div>
+                        <card-text>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ipsam minus odit eos facilis error ipsa. Excepturi architecto quisquam ipsam? Quasi aliquid soluta earum. Beatae quibusdam alias eveniet provident tempore!</p>
+                        </card-text>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-images" src="images/file-7084005_640.png" alt="CSS">
+                    <div class="card-body">
+                        <div class="card-tittle">
+                            <h1>CSS</h1>
+                        </div>
+                        <card-text>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ipsam minus odit eos facilis error ipsa. Excepturi architecto quisquam ipsam? Quasi aliquid soluta earum. Beatae quibusdam alias eveniet provident tempore!</p>
+                        </card-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+        
+    
+    
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
